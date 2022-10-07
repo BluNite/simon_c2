@@ -1,5 +1,7 @@
 # simon_c
-practice repossitory
-#hello world
+
+practice repository
+
+hello world
 
 This is my practice repo.
