@@ -1,1 +1,14 @@
-
+.section {
+  width: 500px;
+  height: 150px;
+}
+.box-blue {
+  /* Sets font color */
+  color: white;
+  /*sets background color */
+  background-color: rgb(13, 13, 237);
+}
+.box-orange {
+  color: white;
+  background-color: orange;
+}
