@@ -1,0 +1,23 @@
+html {
+  background-color: azure;
+  min-height: 200vh;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 40%;
+  min-height: 200px;
+  border: 2px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(0, 102, 255);
+  border: 5px solid black;
+  position: static;
+  top: 10px;
+  left: 10px;
+}

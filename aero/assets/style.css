@@ -1,5 +1,8 @@
+body {
+  background-color: bisque;
+}
 .section {
-  width: 500px;
+  width: 1000px;
   height: 150px;
 }
 .box-blue {
