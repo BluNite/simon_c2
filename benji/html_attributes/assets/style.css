@@ -9,13 +9,13 @@ body {
 }
 
 #paragraph-1 {
-  color: darkslateblue;
-  background-color: whitesmoke;
+  color: rgb(236, 178, 30);
+  background-color: black;
 }
 
 #paragraph-2 {
-  color: darkslateblue;
-  background-color: darkorange;
+  color: red;
+  background-color: rgb(240, 204, 159);
 }
 
 #paragraph-3 {
