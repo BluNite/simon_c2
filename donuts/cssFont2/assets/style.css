@@ -1,7 +1,12 @@
 body {
   margin: 0;
+  background-color: lightblue;
 }
 
 #contact-section {
-  background-color: rgb(129, 228, 118);
+  background-color: rgb(215, 228, 168);
+}
+
+.highlighted-text {
+  background-color: rgb(236, 237, 141);
 }
