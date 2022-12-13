@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: steelblue;
+  color: rgb(196, 241, 219);
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: rgba(10, 17, 41, 0.904);
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1px;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+}
+
+#formId {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 2rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-self: center;
+  background-color: rgba(176, 196, 222, 0.219);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+#passTitle {
+  display: flex;
+  margin: 0;
+  padding: 1rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  min-height: 3rem;
+  text-align: center;
+  font-size: 80px;
+  color: whitesmoke;
+}
+label {
+  font-weight: bolder;
+  font-size: 29px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#passDisplay {
+  width: 400px;
+  height: 60px;
+  background-color: rgba(127, 255, 212, 0.295);
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  font-size: 29px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 45%;
+  padding: 1rem;
+  margin-bottom: 25px;
+  background-color: rgba(74, 92, 131, 0.425);
+  color: rgb(82, 149, 207);
+  font-weight: 700;
+  align-self: center;
+  font-size: large;
+  border-radius: 1rem;
+  border-color: rgb(177, 169, 169);
+  border-width: 7px;
+}
+
+.btn:hover {
+  background-color: rgba(246, 246, 250, 0.178);
+}
+#title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

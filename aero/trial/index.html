@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="asset/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title" id="passTitle">Password Generator</h1>
+
+      <h2 class="passwordDisplay" id="passDisplay">Password</h2>
+
+      <form class="form" id="formId">
+        <label for="charLabel">Number of Characters minimum 7 characters</label>
+        <div class="character-container">
+          <input type="range" min="7" max="25" value="7" id="charAmtRange" />
+          <input type="number" min="7" max="25" value="7" id="charAmtNumber" />
+        </div>
+
+        <label for="uppercaseLabel">Include Uppercase</label>
+        <input type="checkbox" id="uppercaseId" />
+
+        <label for="numberLabel">Include Numbers</label>
+        <input type="checkbox" id="numberId" />
+
+        <label for="symbol">Include Symbols</label>
+        <input type="checkbox" id="symId" />
+
+        <button type="submit" class="btn">Generate Password</button>
+      </form>
+    </div>
+    <script src="asset/logic.js"></script>
+  </body>
+</html>
