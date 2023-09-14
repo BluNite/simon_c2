@@ -1,10 +1,12 @@
+# Mocha and Chai Testing
+
 ![image info](assets/images/mocha_chai_intoduction_png_image.png)
 
-###### image credit cdn.hashmode.com/res/image/upload
+## image credit cdn.hashmode.com/res/image/upload
 
 ![Mocha](https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white)![Chai](https://img.shields.io/badge/Chai-A30701.svg?style=for-the-badge&logo=Chai&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
 
-# Arithmetic
+## Arithmetic
 
 Goal:
 To write code to create functions capable of different arithmetic operations.
@@ -25,6 +27,7 @@ To write code to create functions capable of different arithmetic operations.
 
 ## Visual Example #1 in Browser
 
+https://github.com/BluNite/simon_c2/blob/main/algoPrac/algo_1/test.html
 ![image info](assets/images/mocha_chai_demo_multi_pic.png)
 
 ## At each step check whether functions work properly by opening [test.html](test.html) in the web browser.
