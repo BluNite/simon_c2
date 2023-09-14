@@ -1,0 +1,190 @@
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Body */
+body {
+  background-color: rgb(232, 239, 251);
+}
+
+/* Header*/
+
+header {
+  padding: 20px;
+  font-family: "Trebuchet Ms", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+  background-color: #03a9f4;
+  color: #e3e63d;
+}
+
+/*header h1 tag*/
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+/* nav bar */
+header nav {
+  padding-top: 16px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans MT", Calibri, "Trebuchet Ms" sans-serif;
+  font-size: 20px;
+}
+
+/* ul settings in header*/
+header nav ul {
+  list-style-type: none;
+}
+
+/* inline block display header nav */
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* hover nav bar */
+header nav ul li :hover {
+  color: rgb(245, 236, 2);
+}
+
+/* Text Styles */
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+}
+/*span  */
+.blu {
+  color: rgb(243, 98, 98);
+  font-family: "ROBOTO", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+/* Hero Div with Background Image */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-image: url("../assets/images/web-design-project-management.jpg");
+  background-position: center;
+}
+
+/* Floats */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Main */
+
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 75px;
+}
+
+/* Benefits Aside */
+.productionList {
+  margin-top: 76px;
+  padding: 55px;
+  margin-right: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill San", "Gill Sans Mt", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+}
+
+.production {
+  margin-bottom: 18px;
+  color: whitesmoke;
+  border-bottom: black solid 2px;
+  border-spacing: 5px;
+}
+
+/* Benefits Aside */
+
+.production h3 {
+  color: #e3e63d;
+}
+
+.serviceText h2 {
+  color: #e3e63d;
+}
+
+.production h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.production img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.production p {
+  padding-bottom: 5px;
+}
+
+/* Services section */
+
+.serviceText {
+  padding: 20px;
+  margin-top: 15px;
+  height: 450px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #03a9f4;
+  color: #ffffff;
+  border-bottom: solid 3px black;
+}
+
+.serviceText img {
+  max-height: 220px;
+}
+
+.serviceText P {
+  font-size: 25px;
+}
+
+.serviceText h2 {
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+.blu {
+  color: rgb(243, 98, 98);
+  font-family: "ROBOTO", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+/* Footer */
+
+footer {
+  padding-right: 85px;
+  clear: both;
+  font-family: "Lucida Sans Unicode", "Trebuchet MS", "Lucida Grande",
+    "Lucida Sans", Ariel, sans serif;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
