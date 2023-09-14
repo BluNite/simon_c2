@@ -27,7 +27,7 @@ To write code to create functions capable of different arithmetic operations.
 
 ## Visual Example #1 in Browser
 
-https://github.com/BluNite/simon_c2/blob/main/algoPrac/algo_1/test.html
+- open up the html file in the browser  [test.html](test.html)
 ![image info](assets/images/mocha_chai_demo_multi_pic.png)
 
 ## At each step check whether functions work properly by opening [test.html](test.html) in the web browser.
