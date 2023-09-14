@@ -25,7 +25,7 @@ To write code to create functions capable of different arithmetic operations.
 
 ## Visual Example #1 in Browser
 
-![image info](/assets/images/mocha_chai_demo_multi_pic.png)
+![image info](assets/images/mocha_chai_demo_multi_pic.png)
 
 ## At each step check whether functions work properly by opening [test.html](test.html) in the web browser.
 
