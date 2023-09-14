@@ -36,7 +36,7 @@ describe("multiply", () => {
 });
 
 describe("divide", () => {
-	it("should divide the second by the first number", () => {
+	it("should divide the first number by the second number", () => {
 		var num1 = 400;
 		var num2 = 20;
 
