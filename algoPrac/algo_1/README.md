@@ -23,10 +23,21 @@ To write code to create functions capable of different arithmetic operations.
 
   - `divide` returns the result of `num1` divided by `num2`.
 
-  - At each step check whether functions work properly by opening [test.html](test.html) in the web browser.
+## Visual Example #1 in Browser
 
-- Functions that pass the tests will be denoted with a green check mark.
-  -Functions that fail the tests will be denoted with a red check x and error message.
+![image info](/assets/images/mocha_chai_demo_multi_pic.png)
+
+## At each step check whether functions work properly by opening [test.html](test.html) in the web browser.
+
+## Visual Example #2 in Browser
+
+![image info](assets/images/2023-09-14.png)
+
+### Functions that pass the tests will be denoted with a green check mark.
+
+### Functions that fail the tests will be denoted with a red check x and error message.
+
+![image info](assets/images/arithmeticTest.gif)
 
 ### Hints :star: :star: :star:
 
