@@ -1,0 +1,47 @@
+<!--OPEN THIS FILE IN YOUR WEB BROWSER TO SEE THE RESULTS
+	DO NOT TOUCH OR MODIFY THIS FILE-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arithmeticTest</title>
+    <!--mocha test framework cdn css here-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.css"
+      integrity="sha512-SjDc34mGAkSBKnNMasz1QPVustFyPQUHUO5wxzGNC5x9wQMcHwDHXCNRYowC/6DsX0lqvpCI1mKiVEQkws2olw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--mocha test framework cdn js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.2.0/mocha.js"
+      integrity="sha512-IxwRanAPscjkR3JJbWo+GONwlcvy9/0Uc5yNrY0v52ZMCgX3d44xpr5Gg9lu0qSlULr9CrzYaRUdBbdzxdceMA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--chai lib cdn min.js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.8/chai.min.js"
+      integrity="sha512-kblxofM8P+Fiq83KsnzTlFoM9YNhBauLW5DtBqVBiE5iXy/+G2l051jKzUL1DdTjQ1WGxMyh6n3cO+dLfwxKaw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <!-- create id for mocha-->
+    <div id="mocha"></div>
+    <!--Script for mocha 'behaviorDrivenDevelopment'-->
+    <script>
+      mocha.setup("bdd");
+    </script>
+    <!--script tags arithmetic and test files .js-->
+    <script src="arithmetic.js"></script>
+    <script src="test/arithmetic.test.js"></script>
+    <!--Script run mocha func-->
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
